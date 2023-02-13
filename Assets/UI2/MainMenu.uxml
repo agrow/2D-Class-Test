@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI2/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=282ded62bf436eb4ba1938a34e968689&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement style="justify-content: center; height: 100%; width: 100%; align-items: center;">
+        <ui:Button text="Start Game!" display-tooltip-when-elided="true" name="StartButton" class="menuButton" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="SettingsButton" class="menuButton" style="justify-content: space-between; align-items: flex-start;" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="CreditsButton" class="menuButton" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="Quit" class="menuButton" />
+    </ui:VisualElement>
+</ui:UXML>
